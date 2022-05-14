@@ -18,17 +18,23 @@ nav{
     align-items: center;
 }
 div img{
-    width: 340px;
+    width: 270px;
     position: fixed;
-    bottom: 27%;
-    
-    left: 4%;
+    bottom: 32%;
+    left: 7%;
 
 }
 .box{
     width: 1536px;
     height: 480px;
     background: #00000063;
+}
+.box1{
+    width: 400px;
+    height: 720px;
+    position: fixed;
+    top: 0%;
+    background: #00000092;
 }
 .nav-links{
     flex: 1;
@@ -62,6 +68,16 @@ div img{
 .sola-kaydir{
     float: left;
     padding:0 10px 10px 0;
+    border-radius: 50%;
+}
+.sola-kaydir1{
+    float: left;
+    width: 200px;
+    padding:0 7px 7px 0;
+    border-radius: 50%;
+    top: 3%;
+    left: 6%;
+ 
 }
 .text-box{
     width: 90%;
@@ -117,6 +133,285 @@ div img{
 nav .fa{
     display: none;
 }
+
+.textkisisel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    position: fixed;
+    top: 47%;
+    left: 1%;
+}
+.textisim{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 32%;
+    left: 5%; 
+}
+.box2{
+    width: 400px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.279);
+    position: fixed;
+    top: 31.5%;
+    left: 0%;
+}
+.call{
+    position: fixed;
+    top: 53%;
+    left: 1%;
+    color: rgb(10, 153, 36);
+}
+.textisim1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 53%;
+    left: 3%;   
+}
+.mail{
+    position: fixed;
+    top: 58%;
+    left: 1%;
+    color: rgb(148, 149, 148);
+}
+.textisim2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 58%;
+    left: 3%;      
+}
+.home{
+    position: fixed;
+    top: 63%;
+    left: 1%;
+    color: rgb(34, 97, 149);
+}
+.textisim3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 63%;
+    left: 3%; 
+}
+.calendar{
+    position: fixed;
+    top: 68%;
+    left: 1%;
+    color: rgb(210, 147, 0);
+}
+.textisim4{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 68%;
+    left: 3%; 
+}
+.location{
+    position: fixed;
+    top: 73%;
+    left: 1%;
+    color: rgb(85, 85, 85);
+}
+.textisim5{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 73%;
+    left: 3%;
+}
+.textyetenek{
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    color: #fff;
+    position: fixed;
+    top: 45%;
+    left: 59%;
+}
+.yaraticilik{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 54%;
+    left: 38%;
+}
+.analitik{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 59%;
+    left: 38%;
+}
+.elestiri{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 64%;
+    left: 38%;
+}
+.plan{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 69%;
+    left: 38%;
+}
+.problem{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 74%;
+    left: 38%;
+}
+.ekip{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 79%;
+    left: 38%;
+}
+
+*{box-sizing: border-box}
+
+.container {
+  width: 10%;
+  height: 10px;
+  
+}
+
+.skills {
+  text-align: right;
+  width: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.yrtclk1 {
+font-size: 14px;
+width: 16%;
+height: 3%; 
+background-color: #047300;
+position: fixed;
+left: 55%;
+top: 54%;
+}
+.analitik1 {
+font-size: 14px;
+width: 15%;
+height: 3%; 
+background-color: #059700;
+position: fixed;
+left: 55%;
+top: 59%;
+}
+.elestiri1 {
+font-size: 14px;
+width: 16%;
+height: 3%; 
+background-color: #047300;
+position: fixed;
+left: 55%;
+top: 64%;
+}
+.plan1 {
+font-size: 14px;
+width: 8%;
+height: 3%; 
+background-color: #ed7225;
+position: fixed;
+left: 55%;
+top: 69%;
+}
+.problem1{
+    font-size: 14px;
+    width: 16%;
+    height: 3%; 
+    background-color: #047300;
+    position: fixed;
+    left: 55%;
+    top: 74%;
+}
+.ekip1{
+    font-size: 14px;
+    width: 6%;
+    height: 3%; 
+    background-color: #c63810;
+    position: fixed;
+    left: 55%;
+    top: 79%;
+}
+.box4{
+    width: 800px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.771);
+    position: fixed;
+    top: 15%;
+    left: 37%;
+    border-radius: 25px;
+}
+.egitim{
+    font-size: 25px;
+    font-weight: bold;
+    width: 400px;
+    height: 40px;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+}
+.egitim1{
+    font-size: 17px;
+    position: fixed;
+    top: 23%;
+    left: 38%;
+}
+.egitim2{
+    font-size: 17px;
+    position: fixed;
+    top: 27%;
+    left: 38%;
+}
+.box5{
+    width: 800px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.771);
+    position: fixed;
+    top: 45%;
+    left: 37%;
+    border-radius: 25px;  
+}
+
+
+
+
+
 @media (max-width: 700px){
     .text-box h1{
         font-size: 20px;
